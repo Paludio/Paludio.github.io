@@ -1,0 +1,37 @@
+
+body {
+    color: white
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titles {
+    text-decoration: double;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(45deg, #C7A17C, #3E3A3C, #0F1110, #1E1E1C, #3E342D);
+    background-size: 500% 500%;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors {
+    0% { 
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#paragraph {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
