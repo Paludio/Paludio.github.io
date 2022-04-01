@@ -30,7 +30,7 @@ ul {
 }
 
 .gradient {
-    background: linear-gradient(45deg, #C7A17C, #3E3A3C, #0F1110, #1E1E1C, #3E342D);
+    background: linear-gradient(45deg, #C7A17C, #3E3A3C, #0F1110, #3b3b20, #3E342D);
     background-size: 500% 500%;
     animation: colors 10s ease infinite;
 }
