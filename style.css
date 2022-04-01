@@ -1,16 +1,31 @@
-
 body {
-    text-decoration: solid;
-    color: white
+    font-size: 25px;
+    color: rgb(255, 255, 255)
 }
 
+h1 {
+    text-align: left;
+}
+
+img {
+    border-radius: 100%;
+}
+
+h2{
+    font-size: 38px;
+}
+
+p {
+    line-height: 40px;
+}
 
 ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 40px;
 }
 
+
 .titles {
-    text-decoration: double;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -33,7 +48,12 @@ ul {
 }
 
 #paragraph {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: helvetica, sans-serif;
 }
 
+.link {
+    text-decoration: none;
+    background: linear-gradient( red, orange,white);
+    padding: 10px 15px;
+}
 
