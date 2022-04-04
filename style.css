@@ -1,6 +1,7 @@
 body {
     font-size: 25px;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    margin: 0px;
 }
 
 h1 {
@@ -19,7 +20,6 @@ ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 40px;
 }
-
 
 .titles {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -60,16 +60,61 @@ a:hover{
     font-weight: 700;
     
 }
-div {
-    border: 2px green solid;
-}
+
 
 .descricao {
     border: 2px green solid;
+    clear: both;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.descricao h1 {
+    font-size: 70px;
+    text-decoration: underline 3px solid white;
+    text-decoration: overline 3px solid white;
+}
+
+.conteudo {
+    border: 2px green solid;
+    margin-top: 5px;
+    margin-right: 315px;
+    width: 50%;
     float: right;
-    text-align: center;
 }
 
 .foto {
     width: 500px;
+    padding: 5px;
+    background-color: rgb(253, 218, 189);
+    margin: auto;
+    border-radius: 5%;
 }
+
+.pontos {
+    border: 2px green solid;
+    height: auto;
+    width: 80%;
+    margin:auto;
+    margin-top: 230px;
+    overflow: auto;
+}
+
+.pontos h2 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline 3px white;
+}
+
+
+.soft {
+    border: 2px green solid;
+    text-align: center;
+    list-style: none;
+}
+
+.soft ul {
+    list-style: none;
+}
+
