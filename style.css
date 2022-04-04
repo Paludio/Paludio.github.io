@@ -59,7 +59,6 @@ a:hover{
 
 
 .descricao {
-    border: 2px green solid;
     clear: both;
     width: 100%;
     margin: auto;
@@ -73,7 +72,6 @@ a:hover{
 }
 
 .conteudo {
-    border: 2px green solid;
     margin-top: 5px;
     margin-right: 315px;
     width: 50%;
@@ -89,7 +87,6 @@ a:hover{
 }
 
 .pontos {
-    border: 2px green solid;
     height: auto;
     width: 80%;
     margin:auto;
@@ -104,12 +101,12 @@ a:hover{
 
 
 .soft {
-    border: 2px green solid;
     text-align: center;
 }
 
 .soft li {
     list-style: none;
+    text-align: center;
 }
 
 .soft li:nth-child(2n+1) {
@@ -118,5 +115,5 @@ a:hover{
 }
 
 .rodaPe {
-    border: 2px green solid;
+    text-align: center;
 }
