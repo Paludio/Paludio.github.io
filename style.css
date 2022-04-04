@@ -4,11 +4,7 @@ body {
 }
 
 h1 {
-    text-align: left;
-}
-
-img {
-    border-radius: 100%;
+    text-align: center;
 }
 
 h2{
@@ -53,7 +49,27 @@ ul {
 
 .link {
     text-decoration: none;
-    background: linear-gradient( red, orange,white);
-    padding: 10px 15px;
+    border-radius: 2%;
+} 
+
+a:hover{
+    font-size: 30px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    
+}
+div {
+    border: 2px green solid;
 }
 
+.descricao {
+    border: 2px green solid;
+    float: right;
+    text-align: center;
+}
+
+.foto {
+    width: 500px;
+}
